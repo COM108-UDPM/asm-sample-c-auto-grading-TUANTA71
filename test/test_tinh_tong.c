@@ -13,7 +13,7 @@ void test_Tinh_Tong() {
 
     // Test với số thực 
     // sẽ bị lỗi vì hàm Tinh_Tong nhận int
-    CU_ASSERT_EQUAL(Tinh_Tong(1.5, 2.5), 4);
+    CU_ASSERT_EQUAL(Tinh_Tong(1.7, 2.5), 4);
 }
 
 // Hàm khởi tạo và dọn dẹp test suite
